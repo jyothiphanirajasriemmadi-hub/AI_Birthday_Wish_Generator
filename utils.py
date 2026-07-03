@@ -4,7 +4,7 @@ from groq import Groq
 
 load_dotenv()
 
-api_key = os.getenv("BirthdayWishApp")
+api_key = os.getenv("GROQ_API_KEY")
 print("API Key Loaded:", api_key)
 
 client = Groq(api_key=api_key)
